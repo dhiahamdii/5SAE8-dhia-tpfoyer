@@ -16,7 +16,7 @@ services:
   app-tpfoyer:
     depends_on:
       - mysqldb
-    image: 5sae8_tpfoyer
+    image: dhiahamdi_5sae8_tpfoyer
     restart: on-failure
     ports:
       - 8082:8082
